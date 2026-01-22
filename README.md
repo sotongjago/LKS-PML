@@ -2,7 +2,7 @@
 
 ### Tentang Lomba
 
-Lomba Cyber Security pada LKS SMK XXXIII Kabupaten Pemalang Tahun 2025 akan
+Lomba Cyber Security pada LKS SMK XXXIV Kabupaten Pemalang Tahun 2026 akan
 dilaksanakan dalam format CTF (Capture The Flag) Jeopardy. Peserta akan diberikan serangkaian
 tantangan dengan berbagai kategori seperti Cryptography, Web Exploitation, Reverse
 Engineering, Binary Exploitation, dan Forensics. Setiap kategori memiliki tingkat kesulitan yang
