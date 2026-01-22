@@ -1,4 +1,4 @@
-# LKS PEMALANG 2025
+# LKS PEMALANG 2026
 
 ### Tentang Lomba
 
