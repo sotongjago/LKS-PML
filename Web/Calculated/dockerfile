@@ -1,0 +1,9 @@
+FROM php:8.1-apache
+
+WORKDIR /var/www/html
+
+ENV FLAG=LKSPML{R3G3X_BYP455_1S_VERYYY_E4SY}
+
+COPY src/ .
+
+EXPOSE 80
