@@ -4,7 +4,7 @@ import datetime
 
 app = Flask(__name__)
 
-SECRET_KEY = "secret123"  # ❌ weak & known
+SECRET_KEY = "secret123" 
 
 @app.route("/", methods=["GET", "POST"])
 def login():
@@ -12,7 +12,7 @@ def login():
         username = request.form.get("username")
         password = request.form.get("password")
 
-        # Semua user boleh login
+
         payload = {
             "user": username,
             "role": "user",
@@ -36,7 +36,7 @@ def dashboard():
         return redirect("/")
 
     try:
-        # ❌ vulnerable: algoritma diambil dari token
+        
         decoded = jwt.decode(token, SECRET_KEY, algorithms=None, options={"verify_signature": False})
     except:
         return "Invalid token"
