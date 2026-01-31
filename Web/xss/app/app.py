@@ -31,7 +31,7 @@ def admin():
     with open("flag.txt") as f:
         flag = f.read()
 
-    # simulate admin cookie
+
     return f"""
     <script>
         document.cookie = "flag={flag}";
