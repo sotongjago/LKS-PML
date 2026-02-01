@@ -1,0 +1,25 @@
+name: "Hello Overflow"
+author: "Admin"
+category: Pwn
+description: |
+  Just a simple overflow. Can you change the secret?
+
+  **Difficulty**: Baby
+  `nc <HOST> 1337`
+
+value: 100
+type: standard
+
+flags:
+  - LKSPML{b4by_stvck_0v3rfl0w_3z}
+
+topics:
+  - Pwn
+  - Buffer Overflow
+
+files:
+  - dist/hello_overflow
+  - dist/hello_overflow.c
+
+state: visible
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Ret2Win Classic"
+author: "Admin"
+category: Pwn
+description: |
+  Redirect execution to the win function!
+
+  **Difficulty**: Easy
+  `nc <HOST> 1338`
+
+value: 300
+type: standard
+
+flags:
+  - LKSPML{r3t_2_w1n_1s_cl4ss1c_h4ck}
+
+topics:
+  - Pwn
+  - Ret2Win
+
+files:
+  - dist/ret2win
+  - dist/ret2win.c
+
+state: visible
+version: "0.1"

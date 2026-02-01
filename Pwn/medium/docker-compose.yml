@@ -1,0 +1,7 @@
+version: '3'
+services:
+  medium_pwn:
+    build: .
+    ports:
+      - "1339:1339"
+    privileged: true

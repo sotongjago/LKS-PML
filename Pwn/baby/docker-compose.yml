@@ -1,0 +1,6 @@
+services:
+  baby_pwn:
+    build: .
+    ports:
+      - "1337:1337"
+    privileged: true

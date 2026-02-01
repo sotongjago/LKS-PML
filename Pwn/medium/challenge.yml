@@ -1,0 +1,26 @@
+name: "ROP Me Gently"
+author: "Admin"
+category: Pwn
+description: |
+  Stack is not executable, but you have gadgets. ROP your way to shell.
+  Static binary for your convenience.
+
+  **Difficulty**: Medium
+  `nc <HOST> 1339`
+
+value: 500
+type: standard
+
+flags:
+  - LKSPML{r0p_ch41n_m4st3r_1n_th3_m4k1ng}
+
+topics:
+  - Pwn
+  - ROP
+
+files:
+  - dist/rop_gently
+  - dist/rop_gently.c
+
+state: visible
+version: "0.1"
