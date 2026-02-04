@@ -3,4 +3,4 @@ services:
   jwt:
     build: .
     ports:
-      - "9002:9002"
+      - "9012:9012"

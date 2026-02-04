@@ -6,6 +6,6 @@ COPY app/ /app
 
 RUN pip install flask pyjwt
 
-EXPOSE 9002
+EXPOSE 9012
 
 CMD ["python", "app.py"]
