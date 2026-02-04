@@ -1,6 +1,0 @@
-version: "3"
-services:
-  xss:
-    build: .
-    ports:
-      - "9014:9014"
