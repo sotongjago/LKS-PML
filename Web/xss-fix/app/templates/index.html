@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guestbook Feedback</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guestbook Feedback</h1>
+        <p>Leave your message below ✍️</p>
+
+        <form method="POST">
+            <input type="text" name="name" placeholder="Your name" required>
+            <textarea name="comment" placeholder="Your comment" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <h2>Messages</h2>
+        <div class="messages">
+            {% for c in comments %}
+                <div class="card">
+                    <strong>{{ c.name }}</strong>
+                    <p>{{ c.comment|safe }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

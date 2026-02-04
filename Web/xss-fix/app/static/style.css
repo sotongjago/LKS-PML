@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 500px;
+    margin: 60px auto;
+    background: rgba(0,0,0,0.35);
+    padding: 30px;
+    border-radius: 14px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    background: #ffcc00;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.messages {
+    margin-top: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.15);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
