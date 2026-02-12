@@ -13,4 +13,4 @@ encoded_flag = encode_base64_100x(flag)
 with open("secret.txt", "w") as file:
     file.write(encoded_flag)
 
-print("Encoding selesai dan hasil disimpan dalam file secret.txt")
+print("secret.txt")

@@ -3,10 +3,8 @@ with open("cipher.bin", "rb") as f:
 
 known = b"LKSPML{"
 
-# Recover keystream dari known plaintext
 keystream = bytes(cipher[i] ^ known[i] for i in range(len(known)))
 
-# Cari panjang key (brutal tapi deterministic)
 def find_key(cipher, known):
     for key_len in range(2, 16):
         key = bytes(cipher[i] ^ known[i] for i in range(key_len))
